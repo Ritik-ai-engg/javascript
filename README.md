@@ -13,5 +13,6 @@ This repository contains JavaScript practice programs and examples.
 Open the `.html` files in your browser.
 
 ## Author
-Ritik Rajput
+Ritik Rajput 
+count
 
