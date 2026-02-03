@@ -1,12 +1,13 @@
 //print 1 to 5
-// for(let count=1; count<=5; count++){
+// let n=prompt("give number as per your choice");
+// for(let count=1; count<=n; count++){
 //     console.log("Hello world");
 // }
 // console.log("loop has ended");
 
 //calculate sum of 1 to n
 // let Sum = 0;
-// let n=100;
+// let n=prompt("give number as per your choice");
 // for (let i = 1; i<=n; i++){
 //     Sum=Sum +i;
 // }
@@ -36,7 +37,7 @@
 // }
 // console.log("String size=",size);
 
-//for in loop
+// //for in loop
 let student={
     name: "Ronak Rajput",
     age: 21,
@@ -44,5 +45,6 @@ let student={
     isPass: true,
 };
 for(let key in student){
+    // if(key === "name"){         // if cindition use karege agar hume loops oi ek keyt access krna ha to "if(key === "name")""
     console.log("key=", key, "value=",student[key]);
 }
